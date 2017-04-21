@@ -58,6 +58,7 @@ aside {
 
 .week {
     display: flex;
+    min-width: 1000px;
     flex-direction: row;
     padding: 10px;
     border-bottom: 1px solid $light-grey;

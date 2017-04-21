@@ -6,7 +6,13 @@
 
 /* -- BREAK 1 -- */
 
-@media all and (max-width: 960px) {
-  
+@media all and (max-width: 1280px) {
+
+  .note {
+    height: 52px;
+    width: 156px;
+	box-shadow: 3px 4px 5px 0px #999;
+    margin: 6px 0;
+}
 
  }
