@@ -119,11 +119,8 @@ header a {
 .built a:hover {
   text-decoration: underline; }
 
-.shadow {
-  box-shadow: 0 4px 8px 0 rgba(99, 99, 99, 0.3), 0 6px 16px 0 rgba(99, 99, 99, 0.3); }
-
 .thin {
-  font-weight: 300; }
+  font-weight: 200; }
 
 .center {
   text-align: center; }
@@ -141,15 +138,18 @@ header a {
   text-align: center;
   font-size: 2em;
   color: grey;
-  padding: 12px; }
+  padding: 7px; }
 
 .note {
   height: 62px;
   width: 188px;
-  box-shadow: 3px 4px 5px 0px #999;
   margin: 8px 0;
+  padding: 8px;
   -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease; }
+  transition: all 0.4s ease;
+  box-shadow: 3px 4px 5px 0px #999; }
+  .note:hover {
+    box-shadow: 3px 4px 5px 1px #999; }
 
 .add {
   border: 1px solid #c1c2c3;
