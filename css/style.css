@@ -147,29 +147,45 @@ header a {
   height: 62px;
   width: 188px;
   box-shadow: 3px 4px 5px 0px #999;
-  margin: 8px 0; }
+  margin: 8px 0;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
 
 .add {
   border: 1px solid #c1c2c3;
   box-shadow: none; }
+  .add:hover {
+    background-color: #e0e1e1; }
 
 .red {
   background-color: #e5433f; }
+  .red:hover {
+    background-color: #e12924; }
 
 .yellow {
   background-color: #f9ea4f; }
+  .yellow:hover {
+    background-color: #f8e631; }
 
 .blue {
   background-color: #5995f0; }
+  .blue:hover {
+    background-color: #3d83ed; }
 
 .green {
   background-color: #66bb6a; }
+  .green:hover {
+    background-color: #51b255; }
 
 .purple {
   background-color: #ab47bc; }
+  .purple:hover {
+    background-color: #983da7; }
 
 .pink {
   background-color: #ec407a; }
+  .pink:hover {
+    background-color: #e92467; }
 
 body {
   background-color: #f2f2f2; }
