@@ -25,6 +25,17 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/images\/avatar.png": {
+		"ft": 32768,
+		"iS": 32068,
+		"oA": 0,
+		"oAP": "\/images\/avatar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/mockup.jpg": {
 		"ft": 16384,
 		"iS": 196852,
@@ -147,6 +158,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_utilities.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/note.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/note.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

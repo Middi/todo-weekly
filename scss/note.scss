@@ -1,0 +1,22 @@
+// --------------------------------------------------
+// Note
+// --------------------------------------------------
+
+.note {
+    height: 62px;
+    width: 188px;
+	box-shadow: 3px 4px 5px 0px #999;
+    margin: 8px 0;
+}
+
+.add {
+    border: 1px solid $light-grey;
+	box-shadow: none;
+}
+
+.red {background-color: $red}
+.yellow {background-color: $yellow}
+.blue {background-color: $blue}
+.green {background-color: $green}
+.purple {background-color: $purple}
+.pink {background-color: $pink}

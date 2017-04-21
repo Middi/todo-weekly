@@ -13,9 +13,65 @@ Version: 1.0
 @import "typography";
 @import "buttons";
 @import "utilities";
+@import "note";
 
 
 // ------- Page Contents -------- //
+
+
+body {background-color: $background}
+
+header {
+	width:     100%;
+	height:    42px;
+    top:          0;
+    position: fixed;
+    z-index:    100;
+	background-color:   $nav;
+	display:            flex;
+	justify-content:  center;
+	border-bottom:   1px solid #ccc;
+	box-shadow: 0 3px 3px -4px #999;
+
+    .logo {align-self: center}
+}
+
+main {
+    padding: 52px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    padding-top: 30px;
+    width: 240px;
+    min-height: 100vh;
+}
+
+.user {
+}
+
+#board {
+    min-width: 400px;
+    flex: 1;
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid $light-grey;
+}
+
+.day {
+    flex: 1;
+    text-align: center;
+}
+
+.content {
+    padding: 18px;
+}
+
 
 
 @import "media-queries";
