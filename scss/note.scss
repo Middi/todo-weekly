@@ -15,7 +15,11 @@
 .add {
     border: 1px solid $light-grey;
 	box-shadow: none;
-    &:hover {background-color: lighten($light-grey, 12)}
+
+    &:hover {
+        background-color: lighten($light-grey, 12);
+        box-shadow: none;
+    }
 }
 
 

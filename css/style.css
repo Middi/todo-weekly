@@ -155,7 +155,8 @@ header a {
   border: 1px solid #c1c2c3;
   box-shadow: none; }
   .add:hover {
-    background-color: #e0e1e1; }
+    background-color: #e0e1e1;
+    box-shadow: none; }
 
 .red {
   background-color: #e5433f; }
